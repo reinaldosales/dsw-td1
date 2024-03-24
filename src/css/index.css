@@ -1,0 +1,140 @@
+p {
+    color: white;
+}
+
+nav {
+    padding: 5rem;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav>ul>a {
+    color: white;
+    padding: 1rem 2rem;
+}
+
+nav>ul>a:hover {
+    background-color: white;
+    color: var(--background);
+}
+
+
+.HelloWorld {
+    font-size: 6.4rem;
+}
+
+.AboutMe {
+    font-size: 2.4rem;
+}
+
+.Home {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 15rem 0;
+    color: white;
+}
+
+
+
+/* Container */
+
+.container {
+    width: 70%;
+}
+
+/* Resume */
+
+.Resume {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 0;
+}
+
+
+/* Jobs */
+.cards-jobs,
+.cards-skills {
+    max-width: 100%;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.job,
+.skill {
+    padding: 2rem;
+    background-color: white;
+    min-width: 256px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.job>div>p {
+    color: var(--background);
+    text-align: center;
+}
+
+/* Skills */
+
+.skill>img {
+    width: 64px;
+}
+
+
+
+/* Portfolio */
+
+.Portfolio {
+    margin: 113px 0;
+}
+
+
+.Portfolio>p>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: solid 2px white;
+}
+
+.projects {
+    margin: 44px 0;
+}
+
+.project {
+    margin-bottom: 3.2rem;
+}
+
+.project>.title {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 286px;
+}
+
+.social {
+    margin: 2rem 0;
+}
+
+.social>a>img {
+    width: 24px;
+}
